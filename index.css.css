@@ -1,0 +1,113 @@
+* {background-color: rgba(28,110,164,0.63);
+    font-family: 'Roboto', sans-serif;
+}
+
+#título{ 
+    color: white;
+    text-shadow:rgba(49, 44, 122, 0.572) ;
+    border:solid 2px ;
+    text-align: center ;
+    background-color: rgba(60, 57, 76, 0.77);
+    padding:20px;
+
+}
+#sub{margin:20px;}
+
+.perfil {
+    background-image: url(imagenes/web-dev.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#foto {
+    width: 200;
+    height: 200;
+    border-radius:50% ;
+    object-fit: cover;
+}
+
+.perfil {
+    display: flex;
+    width:50%;
+    align-items: center;
+    float:right;
+
+}
+#descripcion {
+    color:rgb(255, 238, 226);
+    font-weight: 300 ;
+    font-size: large;
+    text-shadow: 1px 2px 2px rgb(18, 2, 45);
+    background: none;
+    margin: 20px;
+    
+
+}
+
+.menu{
+    display: block;
+    width:40%;
+    float: left;
+    padding: 10px;
+    margin:20px;
+    background-color: rgba(60, 57, 76, 0.77);
+
+}
+.subtítulo{
+    color: white;
+    background: none;
+    text-decoration: underline;
+}
+
+
+#info {display:none; }
+#dest {display:none;}
+#expe {display: none;}
+#form {display:none;}
+
+
+
+.mostrar{ 
+    color: rgb(225, 203, 235); 
+    display:block;
+    background-color:rgba(60, 57, 76, 0.77);
+
+}
+
+ul{background-color:rgba(60, 57, 76, 0.77);
+}
+li{background-color:rgba(60, 57, 76, 0.77);
+    padding:5px;
+}
+p{background: none;}
+b{background: none;}
+    
+
+.btn{
+    background-color:grey ;
+    border:solid; color: white;
+}
+.btn:hover {color:black;
+cursor:pointer;}
+
+#contacto{
+    display: block;
+    width:100%;
+    height:200px;
+    clear:both;
+    padding: 10px;
+    background-color: greenyellow
+    
+    }
+    #cont{background:none ;}
+
+  .icono{
+    width: 20px;
+    height: 20px;
+    margin-left: 25px ;} 
+    
+.inf-contacto{
+    display: flex;
+    background: none;
+    
+}
